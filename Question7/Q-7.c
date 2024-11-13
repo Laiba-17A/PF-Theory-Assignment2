@@ -7,7 +7,7 @@
 #define GRID_COLS 5
 
 // Fills the grid with random letters from A to Z
-void populateGridWithRandomLetters(char grid[GRID_ROWS][GRID_COLS]) {
+void RandomLetters(char grid[GRID_ROWS][GRID_COLS]) {
     const char letters[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; 
 
     // Fill each cell in the grid except for the last row
@@ -92,7 +92,7 @@ int main() {
 
     while (1) {
         // Fill the grid with random letters and display it
-        populateGridWithRandomLetters(grid);
+        RandomLetters(grid);
         displayGrid(grid);
 
         
