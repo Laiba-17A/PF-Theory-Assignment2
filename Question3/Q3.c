@@ -33,7 +33,6 @@ int main() {
         int initial_L = strlen(str[i]);
         int compressed_L = strlen(compressed[i]);
         removed_L[i] = initial_L - compressed_L;
-        //strcat(compressed[i]," "removed_L);
     }
     // Displaying the results represent string and the number of letter removed from each word
     printf("[");
